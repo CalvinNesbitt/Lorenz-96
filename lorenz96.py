@@ -9,17 +9,17 @@ import numpy as np
 import numpy.random as rm
 import xarray as xr
 
-# Standard Parameter Choice based on page 1577 in Lorenz 2005.
+# Standard Parameter Choice based on LE98.
 F = 8
-N = 50
+N = 40
 
 
-def l96_rhs(x, F=8, N=50):
+def l96_rhs(x, F=F, N=N):
     return -np.roll(x, -1) * (np.roll(x, -2) - np.roll(x, 1)) - x + F
 
 
 class L96Integrator(OdeIntegrator):
-    def __init__(self, F=8, N=50, ic=None):
+    def __init__(self, F=F, N=N, ic=None):
 
         self.F = F
         self.N = N
