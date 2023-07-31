@@ -16,7 +16,7 @@ N = 40
 
 
 def l96_rhs(x, F=F, N=N):
-    return -np.roll(x, 1) * (np.roll(x, -1) - np.roll(x, 2)) - x + F
+    return np.roll(x, 1) * (np.roll(x, -1) - np.roll(x, 2)) - x + F
 
 
 class L96Integrator(OdeIntegrator):
