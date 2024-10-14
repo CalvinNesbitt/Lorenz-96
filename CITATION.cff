@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: Lorenz-96
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Calvin
+    family-names: Nesbitt
+    affiliation: University of Reading
+repository-code: "https://github.com/CalvinNesbitt/Lorenz-96"
+abstract: Python implementation of the Lorenz-96 model.
+license: MIT
+commit: 39a0f8a50a532cc232d98d002eb0a4017f2df2e0
+version: 0.0.1
