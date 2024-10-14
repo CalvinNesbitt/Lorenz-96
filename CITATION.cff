@@ -11,5 +11,5 @@ authors:
 repository-code: "https://github.com/CalvinNesbitt/Lorenz-96"
 abstract: Python implementation of the Lorenz-96 model.
 license: MIT
-commit: 39a0f8a50a532cc232d98d002eb0a4017f2df2e0
+commit: 9c058f6773ee5ca726e0f79256a59334e45b7fca
 version: 0.0.1
